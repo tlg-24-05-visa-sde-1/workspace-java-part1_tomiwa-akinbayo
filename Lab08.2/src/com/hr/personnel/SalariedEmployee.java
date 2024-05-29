@@ -27,7 +27,7 @@ public class SalariedEmployee extends Employee {
     }
 
     public void takeVacation() {
-        System.out.println(getName() + " is on vaction");
+        System.out.println(getName() + " is on vacation");  // only available to salaried employees
     }
 
     // accessor methods

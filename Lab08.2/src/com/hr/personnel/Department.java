@@ -67,6 +67,10 @@ public class Department {
             //"downcast' the employee reference to more specific type SalariedEmployee
             // then we can sell SalariedEmployee-specific methods like takeVacation()
             if (employees[i] instanceof SalariedEmployee) {
+                // downcast-and-method call
+                // ((SalariedEmployee) employees[i]).takeVacation();
+
+                // explicitly creates new reference of type SalariedEmployee (semp)
                 SalariedEmployee semp = (SalariedEmployee) employees[i];
                 semp.takeVacation();
             }
