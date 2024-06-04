@@ -59,7 +59,7 @@ public class Department {
         }
     }
 
-    // For all employess that take vacation, make them do that.
+    // For all employees that take vacation, make them do that.
     // salaried employees only
     public void holidayBreak() {
         for (Employee emp : employees) {
